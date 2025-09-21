@@ -7,7 +7,7 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "28167693")  # ⚠️ Required
     API_HASH  = os.environ.get("API_HASH", "5924714f9a7a69c4fde389805baa7d23") # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8227057226:AAH8X9pFm4X175C9uZQnbXAoTfmz5anQDvw") # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8443855037:AAGXauc_gOkoEuH0kJZZaR2XVmJyMTkq_jA") # ⚠️ Required
     FORCE_SUB = os.environ.get('FORCE_SUB', 'codiifybots') # ⚠️ Required
     AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB and id_pattern.search(
     FORCE_SUB) else None
