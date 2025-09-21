@@ -5,21 +5,21 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "27394279")  # ⚠️ Required
-    API_HASH  = os.environ.get("API_HASH", "90a9aa4c31afa3750da5fd686c410851") # ⚠️ Required
+    API_ID    = os.environ.get("API_ID", "28167693")  # ⚠️ Required
+    API_HASH  = os.environ.get("API_HASH", "5924714f9a7a69c4fde389805baa7d23") # ⚠️ Required
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "8227057226:AAH8X9pFm4X175C9uZQnbXAoTfmz5anQDvw") # ⚠️ Required
-    FORCE_SUB = os.environ.get('FORCE_SUB', 'The_TGguy') # ⚠️ Required
+    FORCE_SUB = os.environ.get('FORCE_SUB', 'codiifybots') # ⚠️ Required
     AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB and id_pattern.search(
     FORCE_SUB) else None
    
     # database config
-    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://python21java:8ZFGYMKJCqAPwsiO@filestore.f876hjv.mongodb.net/?retryWrites=true&w=majority&appName=Filestore")  # ⚠️ Required
+    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://gudiyakum678_db_user:4pyIIsSd8F60Fzo9@cluster0.ad5syvd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # ⚠️ Required
     DB_NAME  = os.environ.get("DB_NAME","Bankao")  
 
     # Other Configs 
-    ADMIN = int(os.environ.get("ADMIN", "1705634892")) # ⚠️ Required
-    LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1002953042083')) # ⚠️ Required
-    DUMP_CHANNEL = int(os.environ.get('DUMP_CHANNEL', '-1002953042083'))
+    ADMIN = int(os.environ.get("ADMIN", "2021145517")) # ⚠️ Required
+    LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1002521835919')) # ⚠️ Required
+    DUMP_CHANNEL = int(os.environ.get('DUMP_CHANNEL', '-1002521835919'))
     
     BOT_UPTIME = BOT_UPTIME  = time.time()
     START_PIC = os.environ.get("START_PIC", "https://graph.org/file/15e82d7e665eccc8bd9c5.jpg")
